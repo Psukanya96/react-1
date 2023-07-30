@@ -14,16 +14,16 @@ const App = () => {
       <DataView borough="Staten Island" renterCost={14292} ownerCost={28752} renterIncome={37882} ownerIncome={94177} />
 
       {/* DataView component for Queens */}
-      <DataView borough="Queens" renterCost={13560} ownerCost={26052} renterIncome={37875} ownerIncome={83397} />
+      <DataView borough="Queens" renterCost={16812} ownerCost={29256} renterIncome={46459} ownerIncome={80144} />
 
       {/* DataView component for Brooklyn */}
-      <DataView borough="Brooklyn" renterCost={16092} ownerCost={27684} renterIncome={45166} ownerIncome={101997} />
+      <DataView borough="Brooklyn" renterCost={15144} ownerCost={31908} renterIncome={40128} ownerIncome={83737} />
 
       {/* DataView component for Manhattan */}
-      <DataView borough="Manhattan" renterCost={23472} ownerCost={49104} renterIncome={55354} ownerIncome={132025} />
+      <DataView borough="Manhattan" renterCost={18900} ownerCost={36252} renterIncome={62173} ownerIncome={142046} />
 
       {/* DataView component for Bronx */}
-      <DataView borough="Bronx" renterCost={12300} ownerCost={24540} renterIncome={29280} ownerIncome={59974} />
+      <DataView borough="Bronx" renterCost={13176} ownerCost={28548} renterIncome={29302} ownerIncome={76485} />
     </div>
   );
 };

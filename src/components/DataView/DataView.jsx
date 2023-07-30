@@ -5,8 +5,8 @@ const DataView = (props) => {
   const { borough, renterCost, ownerCost, renterIncome, ownerIncome } = props;
 
   //  Cost-To-Income ratio for renters and owners
-  const renterRatio = (renterCost / renterIncome)*100;
-  const ownerRatio = (ownerCost / ownerIncome)*100;
+  const renterRatio = (renterCost / renterIncome).toFixed(2) * 100;
+  const ownerRatio = (ownerCost / ownerIncome).toFixed(2) * 100;
 
   return (
     <div className="view">
